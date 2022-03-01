@@ -1,0 +1,32 @@
+
+public class TestaDeEscopo {
+
+
+	public static void main(String[] args) {
+		System.out.println("testanto condicionais");
+		int idade = 20 ;
+		int quantidadeDePessoas = 3;
+		boolean acompanhado;
+		
+		if (quantidadeDePessoas >= 2) { 
+			acompanhado = true; 
+		} else {
+			acompanhado = false;
+		}
+			
+				
+		if (idade >= 18 && acompanhado ) {
+			
+			
+			System.out.println("valor de acompanhado = " + quantidadeDePessoas + " = " + acompanhado);
+			System.out.println("Seja Bem vindo");
+				
+			} else {
+			
+			System.out.println("Infelizmente voce não pode entrar");
+		}	
+		
+	
+		}	
+}
+
